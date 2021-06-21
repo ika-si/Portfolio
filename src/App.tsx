@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './images/logo.png';
+import { Work } from './components/Work';
+import { workList } from "./data";
+import './styles/App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>
+          <a href="/">Notes</a>
+        </h1>
+        <nav className="pc-nav">
+          <ul>
+            <li><a href="home">Portfolio</a></li>
+            <li><a href="blog">About</a></li>
+          </ul>
+        </nav>
       </header>
+      <div className="">
+        {/* <img src={logo} className="App-logo" alt="logo"/> */}
+        <main className="app_work-list">
+          {workList.map((props, index) => (
+            <Work key={index} {...props}/>
+          ))}
+        </main>
+      </div>
     </div>
   );
 }
