@@ -9,23 +9,23 @@ const App: React.FC = () => {
     <div className="App">
       <header>
         <h1>
-          <a href="/">Notes</a>
+          <a href="/">My Notes</a>
         </h1>
         <nav className="pc-nav">
           <ul>
-            <li><a href="home">Portfolio</a></li>
-            <li><a href="blog">About</a></li>
+            <li><a href="./">Portfolio</a></li>
+            <li><a href="./">About</a></li>
           </ul>
         </nav>
       </header>
-      <div className="">
-        {/* <img src={logo} className="App-logo" alt="logo"/> */}
-        <main className="app_work-list">
-          {workList.map((props, index) => (
-            <Work key={index} {...props}/>
-          ))}
-        </main>
-      </div>
+
+      <main className="work-list">
+        {workList.map((props, index) => (
+          <Work key={index} {...props}/>
+        ))}
+      </main>
+
+      <img src={logo} className="logo" alt="logo"/>
     </div>
   );
 }
