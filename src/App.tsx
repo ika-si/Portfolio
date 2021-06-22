@@ -25,7 +25,8 @@ const App: React.FC = () => {
         ))}
       </main>
 
-      <img src={logo} className="logo" alt="logo"/>
+      {/* <img src={logo} className="logo" alt="logo"/> */}
+      <footer></footer>
     </div>
   );
 }
