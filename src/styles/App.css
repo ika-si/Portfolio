@@ -25,6 +25,7 @@ a {
 }
 .pc-nav {
   margin: 0 0 0 auto;
+  padding-right: 40px;
 }
 ul {
   list-style: none;
@@ -36,12 +37,12 @@ li {
   font-size: 14px;
 }
 /* iphone */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   header {
     /* padding: 30px 4% 30px; */
     position: fixed;
     top: 0;
-    width: 280px;
+    width: 100%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -60,7 +61,7 @@ li {
   }
   ul {
     list-style: none;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 0;
     display: flex;
   }
   li {
@@ -92,7 +93,7 @@ li {
   border-radius: 40px;
 }
 /* iphone */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .work-list {
     background-color: #fff;
     margin: 100px 16px;
@@ -129,7 +130,7 @@ li {
   width: 66%;
 }
 /* iphone */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .sentences {
     margin-left: auto;
     padding: 5px;
