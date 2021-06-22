@@ -1,23 +1,26 @@
 import React from 'react';
-import logo2 from '../images/meowbit.jpg';
 
 export type WorkProps = {
     workName: string;
     workDescription: string;
+    workImage: string;
+    classJudge: string;
     isVisible?: boolean;
 }
 
 export const Work: React.FC<WorkProps> = ({
     workName,
     workDescription,
+    workImage,
+    classJudge,
     isVisible = true,
 }) => {
     if (!isVisible) return null;
     return (
         <div className="work">
-            <img src={ logo2 }/>
+            <img src={workImage}/>
             <div className="sentences">
-                <h3>{workName}</h3>
+                <h3 className={classJudge}>{workName}</h3>
                 <p>{workDescription}</p>
             </div>
         </div>
