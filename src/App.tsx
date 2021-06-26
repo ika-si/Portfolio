@@ -1,31 +1,31 @@
 import React from 'react';
-import logo from './images/logo.png';
-import { Work } from './components/Work';
+
 import  Navbar  from './components/Navbar';
 import Top from './components/Top';
 import Portfolio  from './components/Portfolio';
 import  About  from './components/About';
-import { workList } from "./data";
-
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter as Router, Route, useHistory } from 'react-router-dom';
 
 import './styles/App.css';
 
 const App: React.FC = () => {
+
+  const history = useHistory();
+  const localhost = "http://localhost:3000/";
+  const githubLink = "https://ika-si.github.io/";
   return (
     <div className="App">
-
-      <Router>
+      
+      <Router basename="">
         
         <Navbar />
 
-          <Route exact path='/' component={Top}/>
-          <Route path='/Portfolio/' component={Portfolio}/>
-          <Route path='/About/' component={About}/>
+        <Route exact path='/' component={Top}/>
+        <Route path='/Portfolio/' component={Portfolio}/>
+        <Route path='/About/' component={About}/>
         
       </Router>
 
-      {/* <img src={logo} className="logo" alt="logo"/> */}
       <footer></footer>
     </div>
   );
