@@ -18,7 +18,7 @@ export const Work: React.FC<WorkProps> = ({
     if (!isVisible) return null;
     return (
         <div className="work">
-            <img src={workImage}/>
+            <img src={workImage} alt="workImage"/>
             <div className="sentences">
                 <h3 className={classJudge}>{workName}</h3>
                 <p>{workDescription}</p>

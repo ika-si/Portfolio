@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink, useHistory } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar: React.FC = () => {
 
@@ -11,8 +11,8 @@ const Navbar: React.FC = () => {
                 </Link>
                 <nav className="pc-nav">
                 <ul>
-                    <NavLink to="/Portfolio/" activeClassName="active">
-                        <li>Portfolio</li>
+                    <NavLink to="/Work/" activeClassName="active">
+                        <li>Work</li>
                     </NavLink>
                     <NavLink to="/About/" activeClassName="active">
                         <li>About</li>
