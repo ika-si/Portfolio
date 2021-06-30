@@ -9,7 +9,7 @@ import image07 from './images/timetable.jpg';
 import image08 from './images/sea.jpg';
 import image09 from './images/usagi.jpg';
 import image10 from './images/usagi.jpg';
-import image11 from './images/meowbit.jpg';
+import image11 from './images/block.png';
 import image12 from './images/meowbit.jpg';
 
 
@@ -86,11 +86,11 @@ export const workList: WorkProps[] = [
         isVisible:false
     },
     {
-        workName:"",
-        workDescription:"",
+        workName:"ブロック崩し",
+        workDescription:"Unityで作ったブロック崩しゲーム",
         workImage: image11,
-        classJudge: "pmwork",
-        isVisible:false
+        classJudge: "codework",
+        isVisible: true
     },
     {
         workName:"",
