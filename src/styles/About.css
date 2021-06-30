@@ -13,14 +13,45 @@
 .mySentences {
  padding: 40px;
 }
+.icons svg{
+    color: rgb(255, 135, 108);
+    padding: 10px;
+}
 .skills-list {
     margin: 100px auto;
+}
+.skills {
+    display: flex;
 }
 .skills-list ul {
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
     padding-left: 200px;
+}
+.skills-list li {
+    font-size: 20px;
+
+    line-height: 1.0;
+    padding: 0.5em 0;
+    list-style-type: none!important;/*ポチ消す*/
+}
+
+/* iphone */
+@media screen and (max-width: 420px) {
+    .skills {
+        display: block;
+    }
+    .skills-list {
+        margin: 50px auto;
+    }
+    .skills-list ul {
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        padding: 0 100px;
+    }
+    
 }
 
 /* 星の数 */
