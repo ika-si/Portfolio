@@ -9,11 +9,12 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import './styles/App.css';
 import './styles/Portfolio.css';
 import './styles/About.css';
+import './styles/Top.css';
 
 const App: React.FC = () => {
 
   return (
-    <div className="App">
+    <div>
       
       <Router basename="">
         
@@ -25,7 +26,9 @@ const App: React.FC = () => {
         
       </Router>
 
-      <footer></footer>
+      <footer>
+
+      </footer>
     </div>
   );
 }
