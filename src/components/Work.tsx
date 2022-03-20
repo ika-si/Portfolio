@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+// import Page404 from './Page404';
 
 export type WorkProps = {
     workName: string;
@@ -6,6 +8,7 @@ export type WorkProps = {
     workImage: string;
     classJudge: string;
     isVisible?: boolean;
+    workComponent?: string;
 }
 
 export const Work: React.FC<WorkProps> = ({
@@ -14,15 +17,29 @@ export const Work: React.FC<WorkProps> = ({
     workImage,
     classJudge,
     isVisible = true,
+    workComponent,
 }) => {
     if (!isVisible) return null;
-    return (
-        <div className="work">
-            <img src={workImage} alt="workImage"/>
-            <div className="sentences">
-                <h3 className={classJudge}>{workName}</h3>
-                <p>{workDescription}</p>
+    if (workComponent == "") {
+        return (
+            <div className="work">
+                <img src={workImage} alt="workImage"/>
+                <div className="sentences">
+                    <h3 className={classJudge}>{workName}</h3>
+                    <p>{workDescription}</p>
+                </div>
             </div>
-        </div>
-    );
+        );
+    } else {
+        return (
+            <div className="work">
+                <img src={workImage} alt="workImage"/>
+                <div className="sentences">
+                    <h3 className={classJudge}>{workName}</h3>
+                    <p>{workDescription}</p>
+                    <Link to={`${workComponent}`}>＞Details</Link>
+                </div>
+            </div>
+        );
+    }
 };

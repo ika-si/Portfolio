@@ -1,5 +1,5 @@
 .myProfile {
-    background-color: #fff;
+    /* background-color: #fff; */
     display: flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -12,6 +12,16 @@
 }
 .mySentences {
     padding: 40px;
+}
+@media screen and (max-width: 420px) {
+    .myProfile img {
+        /* display: flex; */
+        width: 70%;
+        /* height: 400px; */
+    }
+    .mySentences {
+        padding: 10px;
+    }
 }
 .icons svg{
     color: rgb(255, 135, 108);
@@ -31,12 +41,27 @@
 }
 .skills-list li {
     font-size: 20px;
-
+    
     line-height: 1.0;
     padding: 0.5em 0;
     list-style-type: none!important;/*ポチ消す*/
 }
-
+/* ipadなど */
+@media screen and (max-width: 1000px) {
+    .skills {
+        display: block;
+    }
+    .skills-list {
+        margin: 50px auto;
+    }
+    .skills-list ul {
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        padding: 0 100px;
+    }
+    
+}
 /* iphone */
 @media screen and (max-width: 420px) {
     .skills {

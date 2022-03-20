@@ -12,7 +12,12 @@ const About: React.FC = () => {
             <img src={myPhoto} alt="myPhoto"></img>
             <div className="mySentences">
               <h2>Yurika</h2>
-              <p>自己紹介</p>
+              <h3>所属</h3>
+              <p>津田塾プロジェクションマッピング</p>
+              <p>C4's
+                <br />
+                <a href="https://c4-s.net/"　target="_blank" rel="noreferrer">＞HOME PAGE</a>
+              </p>
               <div className="icons">
                 <a href="https://github.com/ika-si">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
@@ -29,7 +34,7 @@ const About: React.FC = () => {
           </div>
         </div>
         <div className="skills-list">
-          <h1 className="title">Skills</h1>
+          <h1 className="title">Skills(2022年3月時点)</h1>
           <div className="skills">
           <ul>
             <li>Java</li>
@@ -37,7 +42,7 @@ const About: React.FC = () => {
             <p>大学で2年間半学習。デザインパターンの勉強も。</p>
             <li>Python</li>
             <span className="star5_rating" data-rate="3.5"></span>
-            <p>学習中。約１年間。画像処理、PyTorchの学習。</p>
+            <p>学習中。約１年間。画像処理、機械学習（PyTorch）、RealSense(Cubemos)を使った人物検出。</p>
             <li>HTML/CSS</li>
             <span className="star5_rating" data-rate="4.5"></span>
             <p>2年間使用。大体できる。</p>
@@ -45,19 +50,22 @@ const About: React.FC = () => {
             <span className="star5_rating" data-rate="4"></span>
             <p>webアプリ作成のため、1ヶ月使用。</p>
             <li>React.js</li>
-            <span className="star5_rating" data-rate="3"></span>
-            <p>学習中。2ヶ月目突入。</p>
+            <span className="star5_rating" data-rate="4"></span>
+            <p>このサイトを作成する際に使用。</p>
           </ul>
           <ul>
             <li>Blender</li>
             <span className="star5_rating" data-rate="4"></span>
-            <p>2年間使用。3Dモデリングからアニメーションまで。</p>
-            <li>Motion</li>
+            <p>3年間使用。3Dモデリングからアニメーションまで。</p>
+            <li>Apple Motion5</li>
             <span className="star5_rating" data-rate="3.5"></span>
             <p>2年間使用。動画編集など。</p>
-            <li>Unity</li>
+            <li>Adobe AE & Pr</li>
+            <span className="star5_rating" data-rate="3.5"></span>
+            <p>1年間使用。動画編集など。</p>
+            {/* <li>Unity</li>
             <span className="star5_rating" data-rate="4"></span>
-            <p>半年使用。ゲーム作成。</p>
+            <p>半年使用。ゲーム作成。</p> */}
           </ul>
           </div>
         </div>

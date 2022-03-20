@@ -16,6 +16,32 @@
     height: 250px;
     border-radius: 40px;
 }
+/* ipadなど */
+@media screen and (max-width: 1000px) {
+    .work-list {
+        background-color: #fff;
+        margin: 15px 10px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        z-index: 100;
+        /* align-items: center; */
+    }
+    .work {
+        background-color: #fff;
+        /* padding: 10px 40px; */
+        margin: 20px 100px;
+        display: flex;
+        box-sizing: border-box;
+        border:2px solid #ccc;
+        /* margin: 0; */
+        /* padding: 20px; */
+        width: 100%;
+        height: 210px;
+        border-radius: 40px;
+    }
+}
 /* iphone */
 @media screen and (max-width: 420px) {
     .work-list {
@@ -45,13 +71,23 @@
 .work img {
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
-    width: 40%;
+    width: 50%;
     object-fit: cover;
 }
 .sentences {
     margin-left: auto;
     padding: 5px;
     width: 66%;
+    font-size: 20px;
+}
+/* ipadなど */
+@media screen and (max-width: 1000px) {
+    .sentences {
+        margin-left: auto;
+        padding: 5px;
+        width: 66%;
+        font-size: 18px;
+    }
 }
 /* iphone */
 @media screen and (max-width: 420px) {
