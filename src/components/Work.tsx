@@ -37,6 +37,7 @@ export const Work: React.FC<WorkProps> = ({
                 <div className="sentences">
                     <h3 className={classJudge}>{workName}</h3>
                     <p>{workDescription}</p>
+                    {/* <p>{workComponent}</p> */}
                     <Link to={`${workComponent}`}>＞Details</Link>
                 </div>
             </div>

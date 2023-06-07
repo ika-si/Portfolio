@@ -71,14 +71,18 @@
 .work img {
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
-    width: 50%;
+    width: 200px;
     object-fit: cover;
 }
 .sentences {
     margin-left: auto;
     padding: 5px;
     width: 66%;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.8vh;
+}
+.sentences p {
+    font-size: 1.5vh;
 }
 /* ipadなど */
 @media screen and (max-width: 1000px) {
@@ -86,7 +90,11 @@
         margin-left: auto;
         padding: 5px;
         width: 66%;
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 1.3vh;
+    }
+    .sentences p {
+        font-size: 1vh;
     }
 }
 /* iphone */
@@ -95,7 +103,11 @@
         margin-left: auto;
         padding: 5px;
         width: 66%;
-        font-size: 12px;
+        /* font-size: 12px; */
+        font-size: 2vh;
+    }
+    .sentences p {
+        font-size: 1vh;
     }
 }
 .pmwork {
