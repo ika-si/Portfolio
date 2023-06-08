@@ -25,15 +25,26 @@ const Pro4: React.FC = () => {
             <div className='contents'>
               {/* <img src={photo2} alt="提案システム概要" /> */}
               <p className='content'>
+                デジタルサイネージにユーザを惹きつけるためのシステムを構築し，評価，検討を行なった．
+                <br />
                 4つのフェーズで構成される．
                 <br />
                 ①Ambient Display
                 <br />
+                全体を提示
+                <br />
                 ②Implicit Interaction
+                <br />
+                運動視差を用いて3Dオブジェクトを立体的に見ることが可能
                 <br />
                 ③Subtle Interaction
                 <br />
+                ハンドジェスチャを用いてアニメーション切り替え，3Dオブジェクトの回転が可能
+                <br />
                 ④Personal Interaction
+                <br />
+                bluetoothを用いた情報共有
+
               </p>
             </div>
 
@@ -47,7 +58,7 @@ const Pro4: React.FC = () => {
             <h1 className="title">振り返り</h1>
             <div className='contents'>
               <div className='content'>
-    
+                
               </div>
             </div>
             
