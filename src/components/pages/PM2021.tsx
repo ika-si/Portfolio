@@ -25,7 +25,7 @@ const PM2021: React.FC = () => {
             <div className='contents'>
               {/* <img src={photo2} alt="提案システム概要" /> */}
               <p className='content'>
-                人の検出
+              人物検出，3DCGアニメーション
               </p>
             </div>
 

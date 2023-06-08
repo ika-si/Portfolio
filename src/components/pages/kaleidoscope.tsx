@@ -18,7 +18,9 @@ const kaleidoscope: React.FC = () => {
         <div className='contents'>
           {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
-            {/* あああ */}
+            toioの位置に合わせてプロジェクションマッピングされた映像が動く．
+            <br />
+            鏡が映像の光を反射し，万華鏡のような映像提示ができる．
           </p>
         </div>
 
@@ -26,7 +28,7 @@ const kaleidoscope: React.FC = () => {
         <div className='contents'>
           {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
-            toio
+            toio，TouchDesigner，openFrameWorks
           </p>
         </div>
 
