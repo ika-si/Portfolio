@@ -23,7 +23,7 @@ const About: React.FC = () => {
               <p>津田塾プロジェクションマッピング，ものづくり</p>
               <h3>趣味</h3>
               <p>ワクワクする空間を作ること！</p>
-              <p>推しを追うこと</p>
+              <p>Pikmin Bloom</p>
               <div className="icons">
                 <a href="https://github.com/ika-si">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">

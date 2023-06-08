@@ -14,11 +14,9 @@ const Pro3: React.FC = () => {
             人物照合機能を備える
             <br />
             プロジェクションマッピング</h1>
+            <h3>情報処理学会 インタラクション2022 ポスター発表</h3>
           </div>
-            {/* <h3>情報処理学会 インタラクション2022 ポスター発表</h3> */}
-            {/* <div className='content'> */}
           <img src={photo1} alt="本研究の特徴"/>
-            {/* </div> */}
         </div>
 
         <h1 className="title">きっかけ</h1>
