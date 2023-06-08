@@ -23,9 +23,10 @@ const addIkimono: React.FC = () => {
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
-          {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
-            
+            音声認識で生き物の名前を検知し，その生き物を水槽に入れていくプロジェクションマッピング
+            <br />
+            それぞれの生き物で，動きが異なるのがポイント
           </p>
         </div>
         <div className="movie">
@@ -39,21 +40,16 @@ const addIkimono: React.FC = () => {
         <h1 className="title">ツール</h1>
         <div className='contents'>
           <div className='content'>
-
+            P5.js
           </div>
-        </div>
-
-
-        <h1 className="title">取り組み</h1>
-        <div className='contents'>
-          <p className='content'>
-          </p>
         </div>
 
         <h1 className="title">振り返り</h1>
         <div className='contents'>
           <div className='content'>
-
+            幾何補正が上手くできなかった．
+            <br />
+            曲面のあるゴミ箱であったのが，難しくなったポイントだと思う．
           </div>
         </div>
         

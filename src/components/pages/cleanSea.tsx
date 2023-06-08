@@ -17,29 +17,28 @@ const cleanSea: React.FC = () => {
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
           <p className='content'>
-
+            授業
           </p>
         </div>
 
-        <h1 className="title">システム概要</h1>
+        <h1 className="title">概要</h1>
         <div className='contents'>
-          {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
-            
+            海洋ごみを除くゲーム
+            <br />
+            クリックするとゴミを取り除くことができる．
+            <br />
+            時間が経てば経つほど，深海に近づくことができる．
+            <br />
+            深度によって，出現する生き物が異なる．
           </p>
         </div>
 
         <h1 className="title">ツール</h1>
         <div className='contents'>
           <div className='content'>
-
+            Processing
           </div>
-        </div>
-
-        <h1 className="title">取り組み</h1>
-        <div className='contents'>
-          <p className='content'>
-          </p>
         </div>
 
         <h1 className="title">振り返り</h1>

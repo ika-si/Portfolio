@@ -17,15 +17,18 @@ const PM2019: React.FC = () => {
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
           <p className='content'>
-
+            津田塾祭での展示
           </p>
         </div>
 
-        <h1 className="title">システム概要</h1>
+        <h1 className="title">概要</h1>
         <div className='contents'>
-          {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
-            
+            時代をそれぞれ映像で表した．
+            <br />
+            担当箇所は戦国時代．
+            <br />
+            初めての動画編集，プロジェクションマッピングで，素材の作成技術がなかったため，アニメーションを効果的に使うことを意識した．
           </p>
         </div>
         <div className="movie">
@@ -39,21 +42,16 @@ const PM2019: React.FC = () => {
         <h1 className="title">ツール</h1>
         <div className='contents'>
           <div className='content'>
-
+            Motion5
           </div>
-        </div>
-
-
-        <h1 className="title">取り組み</h1>
-        <div className='contents'>
-          <p className='content'>
-          </p>
         </div>
 
         <h1 className="title">振り返り</h1>
         <div className='contents'>
           <div className='content'>
-
+            障子の一枚一枚にキーフレームを打つより，ライブラリを使うと効率がいいことを学んだ．
+            <br />
+            影を使うと没入感を出せる．
           </div>
         </div>
         

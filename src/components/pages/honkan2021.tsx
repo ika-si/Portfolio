@@ -17,15 +17,18 @@ const honkan2021: React.FC = () => {
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
           <p className='content'>
-
+            去年のリベンジ
           </p>
         </div>
 
-        <h1 className="title">システム概要</h1>
+        <h1 className="title">概要</h1>
         <div className='contents'>
-          {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
-            
+            光が動き回って，さまざまな姿をした建物を旅するプロジェクションマッピング
+            <br />
+            素材から自分たちで作成した．
+            <br />
+            イルカのアニメーションや建物が崩れ落ちるアニメーションを特にこだわって作成した．
           </p>
         </div>
         <div className="movie">
@@ -39,20 +42,16 @@ const honkan2021: React.FC = () => {
         <h1 className="title">ツール</h1>
         <div className='contents'>
           <div className='content'>
-
+            Blender，Motion5
           </div>
-        </div>
-
-        <h1 className="title">取り組み</h1>
-        <div className='contents'>
-          <p className='content'>
-          </p>
         </div>
 
         <h1 className="title">振り返り</h1>
         <div className='contents'>
           <div className='content'>
-
+            去年の映像の位置ズレ問題をもとに，反省を活かして下絵補正を行なった．
+            <br />
+            また，建物全体に投影できるようにプロジェクタの位置を変えるなどの工夫を行なった．
           </div>
         </div>
         

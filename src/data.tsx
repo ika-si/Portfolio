@@ -18,7 +18,7 @@ import image01 from './images/sea.jpg';
 export const workList: WorkProps[] = [
     {
         workName:"バーチャル万華鏡",
-        workDescription:"",
+        workDescription:"作成中",
         workImage: image08,
         classJudge: "codework",
         isVisible:true,

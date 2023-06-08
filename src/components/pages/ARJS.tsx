@@ -17,18 +17,15 @@ const ARJS: React.FC = () => {
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
           <p className='content'>
-
+            教育実習のお礼の手紙に添えるため．
           </p>
         </div>
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
-          {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
-            
+            QRコードマーカにスマホをかざすとポッチャマが出現
           </p>
-        </div>
-        <div className="movie">
         </div>
 
         <h1 className="title">ツール</h1>
@@ -38,17 +35,10 @@ const ARJS: React.FC = () => {
           </div>
         </div>
 
-
-        <h1 className="title">取り組み</h1>
-        <div className='contents'>
-          <p className='content'>
-          </p>
-        </div>
-
         <h1 className="title">振り返り</h1>
         <div className='contents'>
           <div className='content'>
-
+            意外と綺麗に表示できることがわかった．
           </div>
         </div>
         

@@ -53,6 +53,14 @@ const chatTable: React.FC = () => {
             TwitterやInstagramのアカウント登録
           </p>
         </div>
+
+        <h1 className="title">ツール</h1>
+        <div className='contents'>
+          <div className='content'>
+            HTML，CSS，jQuery，Firebase
+          </div>
+        </div>
+
         <h1 className="title">振り返り</h1>
         <div className='contents'>
           <div className='content'>
