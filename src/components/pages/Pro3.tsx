@@ -54,7 +54,8 @@ const Pro3: React.FC = () => {
         <h1 className="title">ツール</h1>
         <div className='contents'>
           <div className='content'>
-            卒論
+            RealSense，Python（Cubemosでの骨格検出）
+            TouchDesigner
           </div>
         </div>
 
