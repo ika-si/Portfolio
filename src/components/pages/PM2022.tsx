@@ -24,7 +24,7 @@ const PM2022: React.FC = () => {
         <h1 className="title">システム概要</h1>
         <div className='contents'>
           <p className='content'>
-            
+            ユーザの動きに合わせてグラフィックが動く．
           </p>
         </div>
         <div className="movie">
