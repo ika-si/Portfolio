@@ -25,9 +25,17 @@ const PM2021: React.FC = () => {
             <div className='contents'>
               {/* <img src={photo2} alt="提案システム概要" /> */}
               <p className='content'>
-              人物検出，3DCGアニメーション
+              人物検出を行い，人が入場したタイミングで3DCGアニメーションが再生される．
+              天井から猫が覗き込んでいることを表現した．
               </p>
             </div>
+            <div className="movie">
+          <iframe
+            src={`https://www.youtube.com/embed/EqdZFGlNvB4`}
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen></iframe>
+        </div>
 
             <h1 className="title">ツール</h1>
             <div className='contents'>
@@ -39,7 +47,7 @@ const PM2021: React.FC = () => {
             <h1 className="title">振り返り</h1>
             <div className='contents'>
               <div className='content'>
-    
+                オンラインでの塾祭ではあったものの，みんなと協力して初めてインタラクティブなプロジェクションマッピングを作れて楽しかった．
               </div>
             </div>
             

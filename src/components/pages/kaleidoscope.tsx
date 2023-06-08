@@ -16,7 +16,7 @@ const kaleidoscope: React.FC = () => {
 
         <h1 className="title">内容</h1>
         <div className='contents'>
-          {/* <img src={photo2} alt="提案システム概要" /> */}
+          {/* <img src={photo2} alt="timetable" /> */}
           <p className='content'>
             toioの位置に合わせてプロジェクションマッピングされた映像が動く．
             <br />
