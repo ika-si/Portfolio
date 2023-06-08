@@ -16,16 +16,16 @@ const PM2022: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             津田塾祭での展示
-          </p>
+          </div>
         </div>
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             ユーザの動きに合わせてグラフィックが動く．
-          </p>
+          </div>
         </div>
         <div className="movie">
           <iframe
@@ -45,9 +45,9 @@ const PM2022: React.FC = () => {
 
         <h1 className="title">取り組み</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             ユーザの骨格検出，3次元骨格位置推定
-          </p>
+          </div>
         </div>
 
         <h1 className="title">振り返り</h1>

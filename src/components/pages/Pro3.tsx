@@ -21,17 +21,15 @@ const Pro3: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
-            {/* 3年プロジェクト（授業） */}
-            {/* <br /> */}
+          <div className='content'>
             カフェで並んでいるときに，子供が白線に沿って並ぶことを嫌がっている様子を見て思いついた
-          </p>
+          </div>
         </div>
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
           <img src={photo2} alt="提案システム概要" />
-          <p className='content'>
+          <div className='content'>
             ①ユーザ同士が近づくほど映像が薄れていく
             <br />
             →ソーシャルディスタンスを取るためではなく，映像を見るためにユーザに距離をとってもらうことを促す．
@@ -39,9 +37,7 @@ const Pro3: React.FC = () => {
             ②人物照合を用いたユーザIDの特定
             <br />
             →個人に即した映像を提示することができる
-          </p>
-
-          {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/71UNur3GjK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          </div>
         </div>
         <div className="movie">
           <iframe
@@ -61,7 +57,7 @@ const Pro3: React.FC = () => {
 
         <h1 className="title">取り組み</h1>
         <div className='contents'>
-          <p className='content'>
+        <div className='content'>
             cubemosのSkeleton Tracking SDK，Intel RealSense SDK2.0による骨格検出
             <br />
             3次元空間での骨格位置推定
@@ -71,7 +67,7 @@ const Pro3: React.FC = () => {
             TouchDesignerによるグラフィック
             <br />
             深層学習のためのデータセット作成
-          </p>
+          </div>
         </div>
 
         <h1 className="title">振り返り</h1>

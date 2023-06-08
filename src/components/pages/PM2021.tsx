@@ -24,10 +24,10 @@ const PM2021: React.FC = () => {
             <h1 className="title">システム概要</h1>
             <div className='contents'>
               {/* <img src={photo2} alt="提案システム概要" /> */}
-              <p className='content'>
+              <div className='content'>
               人物検出を行い，人が入場したタイミングで3DCGアニメーションが再生される．
               天井から猫が覗き込んでいることを表現した．
-              </p>
+              </div>
             </div>
             <div className="movie">
           <iframe

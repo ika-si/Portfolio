@@ -16,20 +16,20 @@ const PM2019: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             津田塾祭での展示
-          </p>
+          </div>
         </div>
 
         <h1 className="title">概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             時代をそれぞれ映像で表した．
             <br />
             担当箇所は戦国時代．
             <br />
             初めての動画編集，プロジェクションマッピングで，素材の作成技術がなかったため，アニメーションを効果的に使うことを意識した．
-          </p>
+          </div>
         </div>
         <div className="movie">
           <iframe

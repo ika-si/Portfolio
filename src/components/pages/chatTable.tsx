@@ -27,7 +27,7 @@ const chatTable: React.FC = () => {
         <h1 className="title">内容</h1>
         <div className='contents'>
           <img src={photo2} alt="timetable" />
-          <p className='content'>
+          <div className='content'>
             ①タームの切り替え
             <br />
             T1~T4の切り替え
@@ -51,7 +51,7 @@ const chatTable: React.FC = () => {
             同じ授業をとっている人に公開
             <br />
             TwitterやInstagramのアカウント登録
-          </p>
+          </div>
         </div>
 
         <h1 className="title">ツール</h1>

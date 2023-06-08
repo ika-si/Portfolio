@@ -16,14 +16,14 @@ const LINEBot: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             教職の授業
-          </p>
+          </div>
         </div>
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             授業補助のためのLINEBotの開発
             <br />
             GASを用いてLINE Message APIを使用し，スプレットシートに値の読み書きを行った．
@@ -35,7 +35,7 @@ const LINEBot: React.FC = () => {
             生徒が解答すると，LINEBotから正解不正解が１問ずつ送信される．
             <br />
             解答内容と正解不正解の判定がスプレットシートに書き込まれ，教師が確認できる仕組みになっている．
-          </p>
+          </div>
         </div>
 
         <h1 className="title">ツール</h1>

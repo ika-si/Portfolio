@@ -16,18 +16,18 @@ const honkan2020: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             建物に投影したくなったから．
-          </p>
+          </div>
         </div>
 
         <h1 className="title">概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             投影時期がバレンタインと近いということで，バレンタインをテーマに作成した．
             <br />
             初めて3Dアニメーションに取り組み，クッキーくんをくるくる回すところに力を入れた．
-          </p>
+          </div>
         </div>
         <div className="movie">
           <iframe
@@ -49,7 +49,7 @@ const honkan2020: React.FC = () => {
           <div className='content'>
             プロジェクタの位置がズレてしまい，建物に合わせて投影することができなかった．
             <br />
-
+            奥行きが出る表現ができるようになりたい．
           </div>
         </div>
         

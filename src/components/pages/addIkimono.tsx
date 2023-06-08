@@ -16,18 +16,18 @@ const addIkimono: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             授業
-          </p>
+          </div>
         </div>
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             音声認識で生き物の名前を検知し，その生き物を水槽に入れていくプロジェクションマッピング
             <br />
             それぞれの生き物で，動きが異なるのがポイント
-          </p>
+          </div>
         </div>
         <div className="movie">
           <iframe

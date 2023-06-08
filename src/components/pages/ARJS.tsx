@@ -16,16 +16,16 @@ const ARJS: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             教育実習のお礼の手紙に添えるため．
-          </p>
+          </div>
         </div>
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             QRコードマーカにスマホをかざすとポッチャマが出現
-          </p>
+          </div>
         </div>
 
         <h1 className="title">ツール</h1>

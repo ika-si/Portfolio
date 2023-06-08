@@ -16,14 +16,14 @@ const cleanSea: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             授業
-          </p>
+          </div>
         </div>
 
         <h1 className="title">概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             海洋ごみを除くゲーム
             <br />
             クリックするとゴミを取り除くことができる．
@@ -31,7 +31,7 @@ const cleanSea: React.FC = () => {
             時間が経てば経つほど，深海に近づくことができる．
             <br />
             深度によって，出現する生き物が異なる．
-          </p>
+          </div>
         </div>
 
         <h1 className="title">ツール</h1>
@@ -44,7 +44,7 @@ const cleanSea: React.FC = () => {
         <h1 className="title">振り返り</h1>
         <div className='contents'>
           <div className='content'>
-
+            初めてコードでグラフィックしてみて，細かい表現が可能になるのがとても好きだと感じた．
           </div>
         </div>
         

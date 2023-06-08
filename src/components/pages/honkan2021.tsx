@@ -16,20 +16,20 @@ const honkan2021: React.FC = () => {
 
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             去年のリベンジ
-          </p>
+          </div>
         </div>
 
         <h1 className="title">概要</h1>
         <div className='contents'>
-          <p className='content'>
+          <div className='content'>
             光が動き回って，さまざまな姿をした建物を旅するプロジェクションマッピング
             <br />
             素材から自分たちで作成した．
             <br />
             イルカのアニメーションや建物が崩れ落ちるアニメーションを特にこだわって作成した．
-          </p>
+          </div>
         </div>
         <div className="movie">
           <iframe

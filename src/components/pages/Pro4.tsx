@@ -25,7 +25,7 @@ const Pro4: React.FC = () => {
             <h1 className="title">システム概要</h1>
             <div className='contents'>
               {/* <img src={photo2} alt="提案システム概要" /> */}
-              <p className='content'>
+              <div className='content'>
                 デジタルサイネージにユーザを惹きつけるためのシステムを構築し，評価，検討を行なった．
                 <br />
                 4つのフェーズで構成される．
@@ -46,7 +46,7 @@ const Pro4: React.FC = () => {
                 <br />
                 bluetoothを用いた情報共有
 
-              </p>
+              </div>
             </div>
 
             <h1 className="title">ツール</h1>
