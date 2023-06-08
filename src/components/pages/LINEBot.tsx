@@ -17,7 +17,7 @@ const LINEBot: React.FC = () => {
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
           <div className='content'>
-            教職の授業
+            教職課程の授業
           </div>
         </div>
 
