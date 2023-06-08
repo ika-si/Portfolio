@@ -17,7 +17,7 @@ const PM2021: React.FC = () => {
             <h1 className="title">きっかけ</h1>
             <div className='contents'>
               <div className='content'>
-                卒論
+              津田塾祭での展示
               </div>
             </div>
     
@@ -25,13 +25,14 @@ const PM2021: React.FC = () => {
             <div className='contents'>
               {/* <img src={photo2} alt="提案システム概要" /> */}
               <p className='content'>
-
+                人の検出
               </p>
             </div>
 
             <h1 className="title">ツール</h1>
             <div className='contents'>
               <div className='content'>
+                Blender，Python，RealSense
               </div>
             </div>
 

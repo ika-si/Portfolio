@@ -17,13 +17,12 @@ const PM2022: React.FC = () => {
         <h1 className="title">きっかけ</h1>
         <div className='contents'>
           <p className='content'>
-
+            津田塾祭での展示
           </p>
         </div>
 
         <h1 className="title">システム概要</h1>
         <div className='contents'>
-          {/* <img src={photo2} alt="提案システム概要" /> */}
           <p className='content'>
             
           </p>
@@ -39,7 +38,7 @@ const PM2022: React.FC = () => {
         <h1 className="title">ツール</h1>
         <div className='contents'>
           <div className='content'>
-
+            TouchDesigner，Kinect v2
           </div>
         </div>
 
@@ -47,13 +46,18 @@ const PM2022: React.FC = () => {
         <h1 className="title">取り組み</h1>
         <div className='contents'>
           <p className='content'>
+            ユーザの骨格検出，3次元骨格位置推定
           </p>
         </div>
 
         <h1 className="title">振り返り</h1>
         <div className='contents'>
           <div className='content'>
-
+            たくさんの人に楽しんでもらえた．
+            <br />
+            子供の身長だとセンシングから外れてしまった．
+            <br />
+            プロトタイプ作成の時は，色々な人に体験してもらうことが大切だと思った．
           </div>
         </div>
         
