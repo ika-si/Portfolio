@@ -10,6 +10,7 @@ const Pro4: React.FC = () => {
               <div className="main-title">
                 <p className='date'>Mar,2023（学部4年）</p>
                 <h1>ユーザの位置計測に基づいた自然なインタラクション遷移を実現するデジタルサイネージシステム</h1>
+                <h3>情報処理学会 インタラクション2023 ポスター発表</h3>
               </div>
               <img src={photo1} alt="本研究の特徴"/>
             </div>
@@ -58,7 +59,8 @@ const Pro4: React.FC = () => {
             <h1 className="title">振り返り</h1>
             <div className='contents'>
               <div className='content'>
-                
+              対面での学会発表で，聞いている人にわかりやすく説明する大切さを学んだ．
+              自分の興味のある分野の研究について議論することが楽しかった．
               </div>
             </div>
             
