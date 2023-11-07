@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2fcfc5a7.css",
+    "main.js": "/portfolio/static/js/main.c98fda01.js",
+    "static/js/787.b9ec5bb0.chunk.js": "/portfolio/static/js/787.b9ec5bb0.chunk.js",
+    "static/media/honkan2021.jpg": "/portfolio/static/media/honkan2021.8d8645ee297ddf5450b1.jpg",
+    "static/media/pochama.png": "/portfolio/static/media/pochama.92d13434f36a0c5dab54.png",
+    "static/media/pm2019.png": "/portfolio/static/media/pm2019.afef208024c8c62ba189.png",
+    "static/media/pm2020.png": "/portfolio/static/media/pm2020.e6c6cf7015cef5b67f6c.png",
+    "static/media/pm2021.png": "/portfolio/static/media/pm2021.f43acc28b4e4353bfdfb.png",
+    "static/media/interaction2022_2.png": "/portfolio/static/media/interaction2022_2.6bc000dff1afb57ac3d3.png",
+    "static/media/honkan2020.jpg": "/portfolio/static/media/honkan2020.f01ec5b97ab98c113883.jpg",
+    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.4851fb53328fa1d09809.jpg",
+    "static/media/interaction2023_1.png": "/portfolio/static/media/interaction2023_1.d3b98961e1699609346a.png",
+    "static/media/addIkimono.png": "/portfolio/static/media/addIkimono.75a8c59c22a32e9641d6.png",
+    "static/media/linebot.jpg": "/portfolio/static/media/linebot.f175dd21d4c8920aeb63.jpg",
+    "static/media/pm2022.jpg": "/portfolio/static/media/pm2022.c299a791c57aeb01fba7.jpg",
+    "static/media/linebot2.jpg": "/portfolio/static/media/linebot2.f8b1ef7d11a1e7a8c593.jpg",
+    "static/media/interaction2022_1.png": "/portfolio/static/media/interaction2022_1.bc756b8aae3f1a247d2a.png",
+    "static/media/timetable.png": "/portfolio/static/media/timetable.e58d475b91d51a9ce57b.png",
+    "static/media/kaleidoscope.jpg": "/portfolio/static/media/kaleidoscope.52ffdaac41d43b377597.jpg",
+    "static/media/sea.jpg": "/portfolio/static/media/sea.a53ca2b12ebb560bebf6.jpg",
+    "static/media/interaction2022.jpeg": "/portfolio/static/media/interaction2022.c331aab6f5f46f239bef.jpeg",
+    "static/media/chattable.png": "/portfolio/static/media/chattable.2a0d288f3c9ffb5c06e3.png",
+    "static/media/chattable2.png": "/portfolio/static/media/chattable2.59dba25d94393edd26fa.png",
+    "index.html": "/portfolio/index.html",
+    "main.2fcfc5a7.css.map": "/portfolio/static/css/main.2fcfc5a7.css.map",
+    "main.c98fda01.js.map": "/portfolio/static/js/main.c98fda01.js.map",
+    "787.b9ec5bb0.chunk.js.map": "/portfolio/static/js/787.b9ec5bb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fcfc5a7.css",
+    "static/js/main.c98fda01.js"
+  ]
+}
