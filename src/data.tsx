@@ -21,7 +21,7 @@ export const workList: WorkProps[] = [
         workDescription:"作成中",
         workImage: image08,
         classJudge: "codework",
-        isVisible:true,
+        isVisible:false,
         workComponent: "/kaleidoscope/"
     },
     {
@@ -33,14 +33,6 @@ export const workList: WorkProps[] = [
         workComponent: "/Pro4/",
     },
     {
-        workName: "お祭り-人魂アート-",
-        workDescription: "Proejction Mapping2022",
-        workImage: image07,
-        classJudge: "pmwork",
-        isVisible: true,
-        workComponent: "/PM2022/"
-    },
-    {
         workName: "ソーシャルディスタンス誘導のための人物照合機能を備えるプロジェクションマッピング",
         workDescription: "情報処理学会　インタラクション2022　ポスター発表",
         workImage: image05,
@@ -49,8 +41,16 @@ export const workList: WorkProps[] = [
         workComponent: "/Pro3/",
     },
     {
+        workName: "お祭り-人魂アート-",
+        workDescription: "Interactive Proejction Mapping2022",
+        workImage: image07,
+        classJudge: "pmwork",
+        isVisible: true,
+        workComponent: "/PM2022/"
+    },
+    {
         workName: "cat world",
-        workDescription: "Proejction Mapping2021",
+        workDescription: "Interactive Proejction Mapping2021",
         workImage: image03,
         classJudge: "pmwork",
         isVisible: true,
@@ -70,7 +70,7 @@ export const workList: WorkProps[] = [
         workDescription:"AR.js",
         workImage: image12,
         classJudge: "codework",
-        isVisible:true,
+        isVisible:false,
         workComponent: "/ARJS/"
     },
     {
